@@ -17,5 +17,5 @@
       </div>
     </div>
   </div>
-  <nuxt-img src="/waveup.svg" sizes="sm:100vw " />
+  <img src="/waveup.svg" class="w-full" />
 </template>
