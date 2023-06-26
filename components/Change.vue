@@ -9,7 +9,7 @@
         <button class="btn mt-4">{{ $t("mid-btn") }}</button>
       </div>
       <div class="md:w-1/2 relative">
-        <nuxt-img
+        <img
           src="/scene3.png"
           fit="cover"
           class="z-10 md:absolute top-6 left-16"
