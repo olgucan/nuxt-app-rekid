@@ -16,20 +16,20 @@
         ></p>
         <div class="flex justify-center gap-5 mt-8">
           <nuxt-link to="/">
-            <nuxt-img src="/appstore.svg" fit="contain" class=" "
+            <img src="/appstore.svg" fit="contain" class=" "
           /></nuxt-link>
           <nuxt-link to="/">
-            <nuxt-img src="/googleplay.svg" fit="contain" class=""
+            <img src="/googleplay.svg" fit="contain" class=""
           /></nuxt-link>
         </div>
       </div>
       <div class="md:w-1/3 relative flex">
-        <nuxt-img
+        <img
           src="/Obszar_kompozycji_1.png"
           fit="contain"
           class="h-[400px] absolute left-32 top-24"
         />
-        <nuxt-img
+        <img
           src="/Obszar_kompozycji_1@2x.png"
           fit="contain"
           class="h-[500px] xl:ml-64"

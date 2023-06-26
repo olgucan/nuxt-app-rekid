@@ -6,9 +6,9 @@
       } `"
     >
       <div class="md:w-3/5">
-        <nuxt-img
+        <img
           :src="`/Mask_Group_${img}.png`"
-          :class="`md:absolute  ${direction}-0`"
+          :class="`md:absolute  ${direction}-0 w-full  md:w-1/2 `"
           sizes="sm:100vw md:50vw"
         />
       </div>
