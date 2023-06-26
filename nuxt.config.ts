@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
     modules: ['@nuxtjs/tailwindcss','@nuxtjs/i18n','@nuxt/image',],
+   
     i18n: {
       precompile: {
         strictMessage: false,
