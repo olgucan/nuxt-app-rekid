@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+    font-family: 'Lato', sans-serif;
+}
+body {
+    background: #fafafa;
+}
+.left-0 {
+    left: 0;
+}
+.right-0 {
+    right: 0;
+}
+.redish {
+  font-weight: bold;
+  color: #c00000;
+}
+@layer components {
+    .btn {
+        @apply block font-bold bg-[#C00000] px-8 py-2 rounded-md text-white hover:opacity-80;
+    }
+    .redish {
+        @apply font-bold text-[#C00000]
+    }
+    .primary {
+        @apply text-[#FAFAFA]
+    }
+    .secondary {
+        @apply text-[#404040] text-[32px] font-bold
+    }
+    .thirdcolor {
+        @apply text-[#E8E4E0]
+    }
+    .fourthcolor {
+        @apply text-[#00000029]
+    }
+    .fifthcolor {
+        @apply text-[#C00000]
+    }
+}
